@@ -10,14 +10,14 @@ body {
   font-family: arial, helvetica, serif;
   letter-spacing: 0.1px;
   font-size: 18px;
-  color: green;
+  color: #8384DF;
   line-height: normal;
 }
 
 
 #cabecalho {
   margin-top: 0px;
-  background-color: green;
+  background-color: #FBEEDF;
   width: 100%;
   position: fixed;
   padding: 0.1px;
@@ -25,7 +25,7 @@ body {
 }
 
 #titulo {
-  color: white;
+  color: #8384DF;
   font-size: 30px;
   text-align: center;
   margin-top: 0%;
@@ -41,7 +41,7 @@ body {
 }
 
 .link :hover {
-  color: white;
+  color: #a2debd;
 }
 
 #link-externo {
@@ -53,10 +53,10 @@ img {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  border: black solid 3px;
+  border: #FBEEDF solid 5px;
   margin-left: 50px;
   clear: both;
-  margin-top: 110px;
+  margin-top: 210px;
   margin-bottom: 30px;
 }
 
@@ -64,49 +64,60 @@ img {
 #licoes_aprendidas {
   display: inline-block;
   float: left;
-  margin-left: 5%;
-  margin-bottom: 3%;
+  margin-left: 35%;
+  margin-bottom: 10%;
+  margin-top: -18%;
+
 }
 
 
 #licoes_a_aprender {
   display: inline-block;
   float: left;
-  margin-left: 5%;
-  margin-top: 30px;
+  margin-left: 9%;
+  margin-top: -16%;
 }
 
 
 ol h2 {
   display: inline-block;
   width: 45;
-  text-align: right;
-  margin-left: 70px;
+  margin-left: 80%;
 
+}
+
+h3 {
+  text-align: center
 }
 
 
 .lado-esquerdo {
   float: left;
-  width: 45%;
-  height: 100px;
-  border: solid green 1px;
+  width: 40%;
+  border: solid #FBEEDF 10px;
   clear: both;
-  padding: 30px;
+  padding: 38px;
+  background-color: #a2debd;
 }
 
 .lado-direito {
   float: right;
-  width: 45%;
-  border: solid green 1px;
-  margin-bottom: 5%;
-  padding: 30px;
+  width: 40%;
+  border: solid #FBEEDF 10px;
+  padding: 60px;
+  margin-bottom: 70px;
+  background-color: #a2debd;
+
 }
 
-table , th , td {
-  border: 1px solid white;
+table,
+th,
+td {
+  border: solid #FBEEDF 3px;
+  ;
   border-collapse: collapse;
   text-align: center;
+  padding: 5px;
 }
 
 
@@ -115,16 +126,16 @@ table {
   margin-right: auto;
   width: 1000px;
   padding: 1px;
-  background-color: green;
-  color: white;
-  margin-bottom: 2%;
+  background-color: #a2debd;
+  color: #8384DF;
+  margin-bottom: 4%;
 }
 
 footer {
-  margin-bottom: 0%;
+  margin-bottom: 2%;
   text-align: left;
   width: 100%;
   clear: both;
-  font-size: 10px;
+  font-size: 15px;
   margin-left: 1%;
 }
